@@ -5,3 +5,4 @@ from django.http import HttpResponse
 
 def inicio(request):
     return render(request, "app/dashboard.html")
+
